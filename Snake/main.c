@@ -502,7 +502,7 @@ void endGame(Game* game) {
 void skinMenu() {
     char input = 0;
 
-    printf("Скины(доделать):\n1) Круги\n2) Кубанойды\n3) Алфавит\nНажмите ESC для выхода\n\n\n\n");
+    printf("Скины:\n1) Круги\n2) Кубанойды\n3) Алфавит\nНажмите ESC для выхода\n\n\n\n");
     while (true) {
         if (_kbhit()) {
             input = _getch();
